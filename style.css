@@ -49,8 +49,8 @@ h2 {
 
 .chat-box {
     width: 90%;
-    max-width: 400px;
-    height: 500px;
+    max-width: 500px;
+    height: 600px;
     overflow-y: auto;
     border-radius: 25px;
     padding: 25px;
