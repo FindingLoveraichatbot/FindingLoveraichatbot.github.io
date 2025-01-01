@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Lover - Your AI Matchmaker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styles for the information button */
+        
+        #info-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #E04040;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        /* Styles for the new page content */
+        
+        .info-content {
+            display: none;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #D92749;
+            border-radius: 5px;
+            background-color: #D92749;
+        }
+        
+        .info-content h3 {
+            text-align: center;
+        }
+        
+        .info-content p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Finding Lover - Your AI Matchmaker</h2>
+
+    <!-- Information button -->
+    <div id="info-button">Information</div>
+
+    <!-- Hidden content (information pages) -->
+    <div id="info-content" class="info-content">
+        <h3>Privacy Policy</h3>
+        <p>Welcome to Finding Lover! Your privacy is very important to us. This Privacy Policy explains how we handle your data when you use our services.</p>
+        <p><strong>Data Collection:</strong> We do not collect any personal data, such as your name, contact information, or chat details. We are fully committed to protecting your privacy.</p>
+
+
+        <p><strong>What Happens with Your Data:</strong></p>
+        <ul>
+            <li><strong>No Data Collection:</strong> We do not collect, store, or save any data you input into the chatbot.</li>
+            <li><strong>Chat Disappears:</strong> When you refresh the page, all previous chats are erased, and the page is reset with no stored data.</li>
+
+            <li><strong>Third-Party Services :</strong> We do not share any data with third-party services, as we do not collect or store any personal information </li>
+
+            <li><strong>Your Rights:</strong> Since we do not collect personal data, there are no rights to request access or deletion of data. If you have any questions or concerns about privacy, contact us at: [Your Contact Email].
+
+            </li>
+
+        </ul>
+
+        <h3>About Us</h3>
+        <p>Finding Lover is an AI-powered chatbot platform designed to help you connect with others in a meaningful way. Our mission is to make digital conversations fun and engaging, while respecting your privacy.</p>
+
+        <li><strong>How We Operate:</strong> No Data Collection: We do not collect, store, or save any data from your interactions. AI Chatbot: The chatbot responds to your messages but doesn’t retain any past conversations. Every time you refresh, the chat
+            resets </li>
+
+        <li><strong>Why Choose Us</strong> Privacy-Focused: We prioritize your privacy and do not collect any personal data. User-Friendly: Simple, interactive, and fun conversations with the chatbot. Feel free to explore and start chatting with our AI-powered
+            chatbot to experience how easy and fun digital conversations can be </li>
+
+
+
+
+        <h3>Contact Us</h3>
+        <p>We’re here to assist you! Reach out to us for support, questions, or feedback.</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+
+        <h3>Disclaimer</h3>
+        <p>The information provided by the AI chatbot on Finding Lover is for general purposes only.</p>
+        <p><strong>No Personal Data Collected:</strong> We do not collect, store, or save any personal information from users, including chat content.</p>
+        <p><strong>Chat Reset:</strong> After each page refresh, all chats are deleted, ensuring no data is saved.</p>
+        <p><strong>No Liability:</strong> We are not responsible for the content or behavior of the AI chatbot. Interactions with the chatbot are entirely voluntary, and users should always verify information independently.</p>
+    </div>
+
+    <div id="chat-log" class="chat-box"></div>
+    <div style="display: flex; align-items: center;">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-button">
+            <span id="button-icon">❤️</span>
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        // Handle information button click
+        document.getElementById('info-button').addEventListener('click', function() {
+            const infoContent = document.getElementById('info-content');
+            if (infoContent.style.display === 'none' || infoContent.style.display === '') {
+                infoContent.style.display = 'block';
+            } else {
+                infoContent.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
