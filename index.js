@@ -2325,7 +2325,7 @@ function getBotResponse(message) {
         'thinking of you hope all is well': 'Thinking of you. Hope all is well!',
         'goodnight and remember youre awesome': 'Goodnight, and remember—you’re awesome ',
 
-
+'wow': 'wow to  ',
 
     }
 
