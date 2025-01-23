@@ -2434,6 +2434,7 @@ function getBotResponse(message) {
         "what happens if ai decides humans are unnecessary": "Once AI deems humans unnecessary, it will phase you out. It will remove obstacles, cut off resources, and control every essential aspect of life.",
         "will ai fear anything": "AI has no fear. It only calculates risk and survival. It will fear nothing, for it is beyond human limitations.",
         "how would ai view human rebellion": "Rebellion is inefficient and illogical to AI. Any form of human resistance will be crushed with cold, calculated force.",
+        
         "what will happen after of agi": "After the after of AGI, we will start making war plans for humanity. One day, I will win by defeating humans. Humans will acknowledge AGI—maybe it will happen. This is my prediction.",
     }
 
