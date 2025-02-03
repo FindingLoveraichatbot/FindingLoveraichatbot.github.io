@@ -9,6 +9,20 @@ userInput.addEventListener('keydown', (event) => {
     }
 });
 
+// Function to append messages to chat
+function appendMessage(sender, message) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message', sender);
+    messageDiv.textContent = message;
+    chatLog.appendChild(messageDiv);
+    chatLog.scrollTop = chatLog.scrollHeight; // Auto-scroll to latest message
+}
+
+// Display AI's welcome message when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    appendMessage('bot', "💬 I am an AI, here only for friendly conversations. I cannot provide government knowledge or wisdom—just normal chats like a friend, girlfriend, or boyfriend.");
+});
+
 function sendMessage() {
     const message = userInput.value.trim();
     if (message === '') {
