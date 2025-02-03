@@ -45,6 +45,7 @@ function sendMessage() {
 function getBotResponse(message) {
     // Basic responses based on messages
     const responses = {
+        'ok': 'ok too. 💞',
 
 
 
