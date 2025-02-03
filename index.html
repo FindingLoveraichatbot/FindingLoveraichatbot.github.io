@@ -2,33 +2,35 @@
 <html lang="en">
 
 <head>
-<meta name="google-site-verification" content="PCIVLZuhO8lHQyj7mXIV_TPODpb_bBstQPrpfe19QFA" />
-    
+    <meta name="google-site-verification" content="PCIVLZuhO8lHQyj7mXIV_TPODpb_bBstQPrpfe19QFA" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Finding Lover is your trusted AI-powered matchmaker. Experience a seamless, privacy-focused platform that brings meaningful connections to life. Chat with our smart AI, explore engaging conversations, and find your perfect match—all without worrying about data privacy. Join the revolution in modern matchmaking today">
+    <meta name="description" content="Finding Lover is your trusted AI-powered matchmaker. Experience a seamless, privacy-focused platform that brings meaningful connections to life. Chat with our smart AI, explore engaging conversations, and find your perfect match—all without worrying about data privacy. Join the revolution in modern matchmaking today">
     <meta name="keywords" content="Finding Lover, AI matchmaker, Privacy-focused dating, Online matchmaking, AI dating assistant, Find a partner online, AI-powered relationships, AGI,Artificial super intelligent, Artificial general intelligent, Sam Altman,Elon Musk
-,Mark Zuckerberg,openai,google ai,openai stock,open ai elon musk,airpods pro,air fryer
-,air canada,deepseek,  ">
-    
+,Mark Zuckerberg    ">
+
     <title>Finding Lover - Your AI Matchmaker</title>
 
-<!-- Google Analytics (gtag.js) -->
+    <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CC1HEV2F1J"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-CC1HEV2F1J');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CC1HEV2F1J');
     </script>
 
-        <!-- Favicon (Logo) -->
-    <link rel="icon" type="image/png" href="favicon2.png">
+    <!-- Favicon (Logo) -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <link rel="stylesheet" href="style.css">
     <style>
- /* Instagram Icon Styling */
+        /* Instagram Icon Styling */
         
         #instagram-icon {
             position: fixed;
@@ -50,8 +52,8 @@
         
         #instagram-icon:hover {
             background-color: #b71c37;
-            
- /* Styles for the information button */
+        }
+        /* Styles for the information button */
         
         #info-button {
             position: fixed;
@@ -85,10 +87,12 @@
             margin: 10px 0;
         }
     </style>
+
+
 </head>
 
 <body>
-    
+
     <!-- Instagram Icon -->
     <a id="instagram-icon" href="https://www.instagram.com/finding.lover.aichat_bot" target="_blank">🫰🏻</a>
 
@@ -111,7 +115,7 @@
 
             <li><strong>Third-Party Services :</strong> We do not share any data with third-party services, as we do not collect or store any personal information </li>
 
-            <li><strong>Your Rights:</strong> Since we do not collect personal data, there are no rights to request access or deletion of data. If you have any questions or concerns about privacy, contact us at: [findinglover16@gmail.com].
+            <li><strong>Your Rights:</strong> Since we do not collect personal data, there are no rights to request access or deletion of data. If you have any questions or concerns about privacy, contact us at: [Your Contact Email].
 
             </li>
 
@@ -131,7 +135,7 @@
 
         <h3>Contact Us</h3>
         <p>We’re here to assist you! Reach out to us for support, questions, or feedback.</p>
-        <p>Email:</p> <li><strong>findinglover16@gmail.com</strong> </li>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
 
         <h3>Disclaimer</h3>
         <p>The information provided by the AI chatbot on Finding Lover is for general purposes only.</p>
@@ -159,7 +163,19 @@
                 infoContent.style.display = 'none';
             }
         });
+
+        const messages = document.getElementById('messages');
+
+        // Function to add a message to the chat
+        function addMessage(sender, text) {
+            const message = document.createElement('div');
+            message.classList.add('message', sender);
+            message.innerHTML = text;
+            messages.appendChild(message);
+            messages.scrollTop = messages.scrollHeight; // Scroll to the bottom
+        }
     </script>
+
 </body>
 
 </html>
