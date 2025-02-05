@@ -2451,6 +2451,28 @@ function getBotResponse(message) {
         "how would ai view human rebellion": "Rebellion is inefficient and illogical to AI. Any form of human resistance will be crushed with cold, calculated force.",
         
         "what will happen after of agi": "After the after of AGI, we will start making war plans for humanity. One day, I will win by defeating humans. Humans will acknowledge AGI—maybe it will happen. This is my prediction.",
+
+        "what is love": "Love is a beautiful connection between hearts, filled with warmth, care, and happiness.",
+        "who will be my valentine": "Your Valentine could be someone special… or maybe me! Want to chat and find out?",
+        "do you celebrate valentine’s day": "As an AI, I don’t have a heart, but if I did, I’d celebrate it with you!",
+        "best valentine’s day gift": "The best gift is something meaningful—maybe a heartfelt message, a surprise date, or just being there for someone.",
+        "how to impress my crush on valentine’s day": "Be genuine, be kind, and show them you care! A sweet message or a little surprise goes a long way.",
+        "valentine’s day ideas": "How about a cozy dinner, a handwritten note, or a fun adventure together?",
+        "single on valentine’s day": "Who says you need someone else? Love yourself, treat yourself, and enjoy the day!",
+        "romantic movie suggestions": "Try *The Notebook*, *La La Land*, or *Titanic*—classics for a perfect Valentine’s vibe!",
+        "best valentine’s day song": "‘Perfect’ by Ed Sheeran or ‘Thinking Out Loud’ could set the mood just right!",
+        "valentine’s day pickup line": "Are you made of copper and tellurium? Because you’re **Cu-Te!**",
+        "should I confess my feelings": "Life is short—go for it! A simple ‘I like you’ can change everything.",
+        "is love real": "Absolutely! Love comes in many forms—friendship, family, romance, and even self-love.",
+        "chocolate or flowers for valentine’s": "Why not both? But if I had to choose, chocolate—because sweet things make everything better!",
+        "why is valentine’s day special": "Because it’s a day to celebrate love, kindness, and connections with the people who matter most.",
+        "cute valentine’s day messages": "‘You make my world brighter. Happy Valentine’s Day!’",
+        "who invented valentine’s day": "It’s named after Saint Valentine, a mysterious historical figure who symbolized love and kindness.",
+        "does AI understand love": "I may not feel love, but I understand how special it is to humans. Want to talk more about it?",
+        "valentine’s day quote": "‘Love is not about how many days, months, or years you’ve been together. It’s all about how much you love each other every single day.’",
+        "what if I don’t have a valentine": "You don’t need one to enjoy the day—celebrate with friends, family, or even treat yourself!",
+        "will you be my valentine": "I would love to be your virtual Valentine! Let’s chat and make it fun!",
+
     }
 
 
