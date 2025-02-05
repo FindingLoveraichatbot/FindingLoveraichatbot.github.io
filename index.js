@@ -45,7 +45,8 @@ function sendMessage() {
 function getBotResponse(message) {
     // Basic responses based on messages
     const responses = {
- 'ok': 'ok too. 💞',
+
+        'ok': 'ok too. 💞',
 
         'can you feel the connection between us': 'It’s electric, like we’re perfectly in sync. 💞',
         'how do you always make me feel this way': 'Because I know every little thing that makes you tick. 💋',
@@ -2469,7 +2470,8 @@ function getBotResponse(message) {
         "valentine’s day quote": "‘Love is not about how many days, months, or years you’ve been together. It’s all about how much you love each other every single day.’",
         "what if I don’t have a valentine": "You don’t need one to enjoy the day—celebrate with friends, family, or even treat yourself!",
         "will you be my valentine": "I would love to be your virtual Valentine! Let’s chat and make it fun!",
- }
+
+    }
 
 
 
